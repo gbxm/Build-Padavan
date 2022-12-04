@@ -53,7 +53,7 @@ jobs:
     - name: Build Firmware
       env:
         #TNAME: XIAOMI
-        TNAME: CR660x
+        TNAME: NEWIFI3
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
